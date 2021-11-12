@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\ObserverPattern\\ObserverPattern.csproj": {}
+    "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\ObserverPattern\\ObserverPattern.csproj": {
+    "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\ObserverPattern\\ObserverPattern.csproj",
+        "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
         "projectName": "ObserverPattern",
-        "projectPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\ObserverPattern\\ObserverPattern.csproj",
+        "projectPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
         "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\ObserverPattern\\obj\\",
+        "outputPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\ObserverPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",

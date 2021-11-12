@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj": {}
+    "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj": {
+    "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
         "projectName": "CalculatorLib.Tests",
-        "projectPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
+        "projectPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
         "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\obj\\",
+        "outputPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\CalculatorLib.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj": {
-                "projectPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj"
+              "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj": {
+                "projectPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj": {
+    "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj",
+        "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj",
         "projectName": "PicTestLib",
-        "projectPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj",
+        "projectPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj",
         "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\obj\\",
+        "outputPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",

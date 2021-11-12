@@ -11,7 +11,6 @@ namespace ObserverPattern
     public class Order
     {
         public event Action<string> OrderStateChanged;//event
-        //orderClosedEvent - new
         public event Action<string> OrderClosed;
         string orderId;
         OrderState currentState;

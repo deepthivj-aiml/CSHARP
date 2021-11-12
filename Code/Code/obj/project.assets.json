@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\Code\\Code.csproj",
+      "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\Code\\Code.csproj",
       "projectName": "Code",
-      "projectPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\Code\\Code.csproj",
+      "projectPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\Code\\Code.csproj",
       "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\Code\\obj\\",
+      "outputPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\Code\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",
