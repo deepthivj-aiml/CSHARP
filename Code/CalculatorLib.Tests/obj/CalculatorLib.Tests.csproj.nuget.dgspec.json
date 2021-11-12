@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AdvC#\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj": {}
+    "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj": {}
   },
   "projects": {
-    "E:\\AdvC#\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj": {
+    "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AdvC#\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
         "projectName": "CalculatorLib.Tests",
-        "projectPath": "E:\\AdvC#\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\AdvC#\\advanced-csharp\\Code\\CalculatorLib.Tests\\obj\\",
+        "projectPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
+        "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\CalculatorLib.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/PhilipsMA/_packaging/PatientMonitoring/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\AdvC#\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj": {
-                "projectPath": "E:\\AdvC#\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj"
+              "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj": {
+                "projectPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj"
               }
             }
           }
@@ -58,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\AdvC#\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj": {
+    "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AdvC#\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj",
+        "projectUniqueName": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj",
         "projectName": "PicTestLib",
-        "projectPath": "E:\\AdvC#\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\AdvC#\\advanced-csharp\\Code\\PicTestLib\\obj\\",
+        "projectPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\PicTestLib.csproj",
+        "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\320107743\\Source\\Repos\\advanced-csharp1\\Code\\PicTestLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +81,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/PhilipsMA/_packaging/PatientMonitoring/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -112,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

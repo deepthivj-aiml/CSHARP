@@ -1,17 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+using System;
 
 namespace ObserverPattern
 {
     public enum OrderState
     {
-        CRETAED,CONFIRMED,CANCELLED,CLOSED
+        CRETAED, CONFIRMED, CANCELLED, CLOSED
     }
-    
-    public   class Order
+
+    public class Order
     {
-       public event Action<string> OrderStateChanged;//event
-        // OrderClosed - Event
+        public event Action<string> OrderStateChanged;//event
+        //orderClosedEvent - new
+        public event Action<string> OrderClosed;
         string orderId;
         OrderState currentState;
         public Order()
@@ -22,32 +23,32 @@ namespace ObserverPattern
         public void ChangeState(OrderState newState)
         {
             this.currentState = newState;
-            NotifyAll();
+            
+                NotifyAll();
         }
         void NotifyAll()
         {
-            if (OrderStateChanged != null)
+            if (OrderStateChanged != null && this.currentState != OrderState.CLOSED)
             {
-                this.OrderStateChanged.Invoke(this.orderId);//one->Many (Multicast Delegate Instance)
+               
+                    this.OrderStateChanged.Invoke(this.orderId);
+                
             }
+            else if(OrderClosed != null)
+            {
+                OrderClosed.Invoke(orderId);
+            }
+            
         }
 
-        ////Subscribe,Register
-        //public void Add_OrderStateChanged(Action observerAddress)
-        //{
-        //    this.OrderStateChanged += observerAddress;//System.Delegate.Combine
-        //}
-        ////UnSubScribe
-        //public void Remove_OrderStateChanged(Action observerAddress)
-        //{
-        //    this.OrderStateChanged -= observerAddress;//System.Delegate.Remove
-        //}
-
     }
-
     public class AuditSystem
     {
+        public void SendAudit(string eventData)
+        {
+            Console.WriteLine($"Order closed {eventData}");
 
+        }
     }
     public class EmailNotifificationSystem
     {
@@ -55,8 +56,16 @@ namespace ObserverPattern
     }
     public class SMSNotificationSystem
     {
-        public void SendSMS(string evtData) {
+        public void SendSMS(string evtData)
+        {
             Console.WriteLine($"SMS Sent  {evtData}");
+        }
+    }
+    public class WhatsAppNotificationSystem
+    {
+        public void SendWhatsApp(string eventData)
+        {
+            Console.WriteLine($"Whatsapp sent {eventData}");
         }
     }
 
@@ -66,14 +75,22 @@ namespace ObserverPattern
         {
             EmailNotifificationSystem _emailSystem = new EmailNotifificationSystem();
             SMSNotificationSystem _smsSystem = new SMSNotificationSystem();
+            WhatsAppNotificationSystem _whatsappSystem = new WhatsAppNotificationSystem();
+            AuditSystem _auditSystem = new AuditSystem();
 
             Action<string> _emailObserver = new Action<string>(_emailSystem.SendMail);
 
             Action<string> _smsObserver = new Action<string>(_smsSystem.SendSMS);
 
+            Action<string> _whatsappObserver = new Action<string>(_whatsappSystem.SendWhatsApp);
+
+            Action<string> _closedObserver = new Action<string>(_auditSystem.SendAudit);
+
             Order _order1 = new Order();
-            _order1.OrderStateChanged += _emailObserver;// Add_OrderStateChanged(_emailObserver)
+            _order1.OrderStateChanged += _emailObserver;
             _order1.OrderStateChanged += _smsObserver;
+            _order1.OrderStateChanged += _whatsappObserver;
+            _order1.OrderClosed += _closedObserver;
 
             _order1.ChangeState(OrderState.CONFIRMED);
             System.Threading.Tasks.Task.Delay(1000).Wait();
