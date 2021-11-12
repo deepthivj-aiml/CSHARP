@@ -78,11 +78,8 @@ namespace ObserverPattern
             AuditSystem _auditSystem = new AuditSystem();
 
             Action<string> _emailObserver = new Action<string>(_emailSystem.SendMail);
-
             Action<string> _smsObserver = new Action<string>(_smsSystem.SendSMS);
-
             Action<string> _whatsappObserver = new Action<string>(_whatsappSystem.SendWhatsApp);
-
             Action<string> _closedObserver = new Action<string>(_auditSystem.SendAudit);
 
             Order _order1 = new Order();

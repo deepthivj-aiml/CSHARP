@@ -37,7 +37,6 @@ C:\Users\320107743\source\repos\advanced-csharp\Code\ObserverPattern\bin\Debug\n
 C:\Users\320107743\source\repos\advanced-csharp\Code\ObserverPattern\bin\Debug\net5.0\ObserverPattern.dll
 C:\Users\320107743\source\repos\advanced-csharp\Code\ObserverPattern\bin\Debug\net5.0\ref\ObserverPattern.dll
 C:\Users\320107743\source\repos\advanced-csharp\Code\ObserverPattern\bin\Debug\net5.0\ObserverPattern.pdb
-C:\Users\320107743\source\repos\advanced-csharp\Code\ObserverPattern\obj\Debug\net5.0\ObserverPattern.csproj.AssemblyReference.cache
 C:\Users\320107743\source\repos\advanced-csharp\Code\ObserverPattern\obj\Debug\net5.0\ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\320107743\source\repos\advanced-csharp\Code\ObserverPattern\obj\Debug\net5.0\ObserverPattern.AssemblyInfoInputs.cache
 C:\Users\320107743\source\repos\advanced-csharp\Code\ObserverPattern\obj\Debug\net5.0\ObserverPattern.AssemblyInfo.cs
