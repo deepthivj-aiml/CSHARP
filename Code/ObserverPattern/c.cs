@@ -1,6 +1,5 @@
-﻿
+﻿/*
 using System;
-using System.Diagnostics;
 using System.Threading;
 
 namespace ObserverPattern
@@ -12,7 +11,6 @@ namespace ObserverPattern
 
     public class Order
     {
-       
         public event Action<string> OrderStateChanged;//event
         public event Action<string> OrderClosed;
         string orderId;
@@ -81,9 +79,6 @@ namespace ObserverPattern
         {
             static void Main(string[] args)
             {
-                var watch = new System.Diagnostics.Stopwatch();
-
-                watch.Start();
                 EmailNotifificationSystem _emailSystem = new EmailNotifificationSystem();
                 SMSNotificationSystem _smsSystem = new SMSNotificationSystem();
                 WhatsAppNotificationSystem _whatsappSystem = new WhatsAppNotificationSystem();
@@ -107,10 +102,7 @@ namespace ObserverPattern
                 _order1.ChangeState(OrderState.CONFIRMED);
                 System.Threading.Tasks.Task.Delay(5000).Wait();
                 _order1.ChangeState(OrderState.CLOSED);
-                watch.Stop();
-
-                Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
             }
         }
     }
-}
+}*/
