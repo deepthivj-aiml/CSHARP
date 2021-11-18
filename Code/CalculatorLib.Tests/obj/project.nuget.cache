@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FmDlGgcpNfiuXfRJqUv7qikXWE0i4tkjD9/LR/A4u96y+RKQDx7wWzkG20fOzgEKoaCjLbEMTWUAECHkvhA2zw==",
+  "dgSpecHash": "jHLFkQZ0BW4UkqOk6TK2rTGfFBTUFALUcxVRA9mRxpI9LXdfBm+29wVgaJ6mu5JijskRA89YelSpHLi69XKjUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
+  "projectFilePath": "C:\\Users\\320107743\\Source\\Repos\\CSHARP\\Code\\CalculatorLib.Tests\\CalculatorLib.Tests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

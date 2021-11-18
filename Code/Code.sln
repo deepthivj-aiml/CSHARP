@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLib.Tests", "Calc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PicTestRunner", "PicTestRunner\PicTestRunner.csproj", "{0CCD3FB4-67C4-458D-A387-CBB6CB9D10FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{B99878CD-FE67-4CEF-9CE9-3774251F31EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{B99878CD-FE67-4CEF-9CE9-3774251F31EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAssignment", "AsyncAssignment\AsyncAssignment.csproj", "{AE4C12EA-3514-4367-920A-9A8796913A1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B99878CD-FE67-4CEF-9CE9-3774251F31EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B99878CD-FE67-4CEF-9CE9-3774251F31EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B99878CD-FE67-4CEF-9CE9-3774251F31EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4C12EA-3514-4367-920A-9A8796913A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4C12EA-3514-4367-920A-9A8796913A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4C12EA-3514-4367-920A-9A8796913A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4C12EA-3514-4367-920A-9A8796913A1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

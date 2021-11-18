@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj",
+      "projectUniqueName": "C:\\Users\\320107743\\Source\\Repos\\CSHARP\\Code\\PicTestLib\\PicTestLib.csproj",
       "projectName": "PicTestLib",
-      "projectPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\PicTestLib.csproj",
+      "projectPath": "C:\\Users\\320107743\\Source\\Repos\\CSHARP\\Code\\PicTestLib\\PicTestLib.csproj",
       "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\PicTestLib\\obj\\",
+      "outputPath": "C:\\Users\\320107743\\Source\\Repos\\CSHARP\\Code\\PicTestLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",

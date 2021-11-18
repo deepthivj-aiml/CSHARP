@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AvD4pltGHqkCdcUNXRw8nFhE7TFuPTjAnIwMdrHRZTFQYwCEj3Sj8M58DSdYmHdGMfIanRWldeblTDl1TjquBA==",
+  "dgSpecHash": "KLo55iq/PM8q/msonF7aSi24RArvn1sqUbGjBUIhmilbazR0pC3EJTqD64ZQP6l/1jTktbDQ6RdnqgA7aV+3Pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\320107743\\source\\repos\\advanced-csharp\\Code\\ObserverPattern\\ObserverPattern.csproj",
+  "projectFilePath": "C:\\Users\\320107743\\Source\\Repos\\CSHARP\\Code\\ObserverPattern\\ObserverPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
