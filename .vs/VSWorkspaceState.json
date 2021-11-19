@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Code",
+    "\\Code\\ObserverPattern"
   ],
-  "SelectedNode": "\\Code.sln",
+  "SelectedNode": "\\Code\\ObserverPattern\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

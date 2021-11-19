@@ -5,7 +5,6 @@ C:\Users\320107743\source\repos\CSHARP\Code\AsyncAssignment\bin\Debug\net5.0\Asy
 C:\Users\320107743\source\repos\CSHARP\Code\AsyncAssignment\bin\Debug\net5.0\AsyncAssignment.dll
 C:\Users\320107743\source\repos\CSHARP\Code\AsyncAssignment\bin\Debug\net5.0\ref\AsyncAssignment.dll
 C:\Users\320107743\source\repos\CSHARP\Code\AsyncAssignment\bin\Debug\net5.0\AsyncAssignment.pdb
-C:\Users\320107743\source\repos\CSHARP\Code\AsyncAssignment\obj\Debug\net5.0\AsyncAssignment.csproj.AssemblyReference.cache
 C:\Users\320107743\source\repos\CSHARP\Code\AsyncAssignment\obj\Debug\net5.0\AsyncAssignment.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\320107743\source\repos\CSHARP\Code\AsyncAssignment\obj\Debug\net5.0\AsyncAssignment.AssemblyInfoInputs.cache
 C:\Users\320107743\source\repos\CSHARP\Code\AsyncAssignment\obj\Debug\net5.0\AsyncAssignment.AssemblyInfo.cs
