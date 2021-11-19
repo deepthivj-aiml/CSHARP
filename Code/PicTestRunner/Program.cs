@@ -29,17 +29,17 @@ namespace PicTestRunner
                               types[i].GetMethods(System.Reflection.BindingFlags.Public |
                               System.Reflection.BindingFlags.Instance);
                         object instance = System.Activator.CreateInstance(types[i]);
-                        foreach (System.Reflection.MethodInfo method in methods)
+                        for (int j = 0; j < methods.Length; j++)
                         {
-                            if (method.ReturnType == typeof(void) && method.GetParameters().Length == 0)
+                            if (methods[j].ReturnType == typeof(void) && methods[j].GetParameters().Length == 0)
                             {
                                 //TestAttribute based
-                                PicTestLib.TestAttribute[] testAttributes = method.GetCustomAttributes(typeof(PicTestLib.TestAttribute), true) as PicTestLib.TestAttribute[];
-                                if (testAttributes.Length >= 1 )
+                                PicTestLib.TestAttribute[] testAttributes = methods[j].GetCustomAttributes(typeof(PicTestLib.TestAttribute), true) as PicTestLib.TestAttribute[];
+                                if (testAttributes.Length >= 1 && j>0)
                                 {
-                                    Console.WriteLine($"Method Name {method.Name}, Test Method Name {testAttributes[0].Name}");
+                                    Console.WriteLine($"Method Name {methods[j].Name}, Test Method Name {testAttributes[0].Name}");
                                     // methods[j].Invoke(instance,new object[] { });
-                                    new Thread(new ParameterizedThreadStart(((object obj) => { method.Invoke(instance, new object[] { }); }))).Start();
+                                    new Thread(new ParameterizedThreadStart(((object obj) => { methods[j].Invoke(instance, new object[] { }); }))).Start();
                                 }
                             }
 
